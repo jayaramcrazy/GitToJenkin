@@ -17,5 +17,10 @@ pipeline {
                 echo 'App Depolying'
             }
         }
+        stage('Record') {
+            steps {
+                echo 'App Record'
+            }
+        }
     }
 }
