@@ -22,5 +22,11 @@ pipeline {
                 echo 'App Record'
             }
         }
+	stage('Remove'){
+	     steps {
+	        echo 'App Remove'
+	     }
+
+	}
     }
 }
