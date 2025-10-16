@@ -29,7 +29,7 @@ pipeline {
 
 	}
 	stage('recursive'){
-	     step {
+	     steps {
 	       echo 'App recursive'
 	     }
 	}
