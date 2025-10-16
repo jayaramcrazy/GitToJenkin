@@ -25,8 +25,13 @@ pipeline {
 	stage('Remove'){
 	     steps {
 	        echo 'App Remove'
-	     }
+	    }
 
+	}
+	stage('recursive'){
+	     step {
+	       echo 'App recursive'
+	     }
 	}
     }
 }
